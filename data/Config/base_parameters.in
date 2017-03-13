@@ -1,0 +1,50 @@
+ # Parameter Configuration File #
+ # <ints> 6 <doubles> 36 <strings> 4
+ # (0) # Option Type ::  <int> 1
+ # (1) # No of X points ::  <int> 51
+ # (2) # No of Y points ::  <int> 6
+ # (3) # No of Q points ::  <int> 6
+ # (4) # No of Time Steps ::  <int> 400
+ # (5) # No of commits ::  <int> 3
+ # (0) # Commit rate ::  <double> 0.5
+ # (1) # Maximum X value ::  <double> 100
+ # (2) # Maximum Y value ::  <double> 100
+ # (3) # Maximum Q value ::  <double> 1
+ # (4) # Option Maturity ::  <double> 1
+ # (5) # Interest Rate ::  <double> 0.05
+ # (6) # Mean Reversion in X ::  <double> 0.1
+ # (7) # Long-term Average in X ::  <double> 8
+ # (8) # Variance in X ::  <double> 0.2
+ # (9) # Mean Reversion in Y ::  <double> 0.04
+ # (10) # Long-term Average in Y ::  <double> 40
+ # (11) # Variance in Y ::  <double> 0.075
+ # (12) # Energy Efficiency ::  <double> 0.8366
+ # (13) # Rate of Charge ::  <double> 0.25
+ # (14) # Rate of Discharge ::  <double> 0.25
+ # (15) # Smoothing on Charge ::  <double> 0.2
+ # (16) # Smoothing on Discharge ::  <double> 0.2
+ # (17) # Contract Rate ::  <double> 0.5
+ # (18) # Penalty Rate ::  <double> 1.5
+ # (19) # Power Cut Out Level ::  <double> 25
+ # (20) # Maximum Power ::  <double> 1
+ # (21) # Power Turn ::  <double> 10
+ # (22) # Contract Length ::  <double> 1
+ # (23) # Tolerance ::  <double> 1e-06
+ # (24) # Omega ::  <double> 1
+ # (25) # Differencing parameter (theta) ::  <double> 0.5
+ # (26) # Correlation (rho) ::  <double> 0
+ # (27) #  Amplitude of sin wave around av_X ::  <double> 0.375
+ # (28) #  Period of sin wave in X (hours) ::  <double> 24
+ # (29) #  Phase of sin wave in X (hours) ::  <double> -2
+ # (30) #  Amplitude of sin wave around av_Y ::  <double> 0.375
+ # (31) #  Period of sin wave in Y (hours) ::  <double> 24
+ # (32) #  Phase of sin wave in Y (hours) ::  <double> -14
+ # (33) #  Maximum Commitment (% power) ::  <double> 1
+ # (34) #  Minimum Commitment (% power) ::  <double> 0.01
+ # (35) #  Buy/Sell spread (% clearing price) ::  <double> 1
+ # (0) # Option Name ::  <string> default_option
+ # (1) # Initial Results File ::  <string> default_ic.dat
+ # (2) # Final Results File ::  <string> default_fr.dat
+ # (3) # Plot File ::  <string> default_plot.plt
+
+# End of File # 

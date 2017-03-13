@@ -1,0 +1,11 @@
+ # Parameter Configuration File #
+ # <ints> 0 <doubles> 7 <strings> 0
+ # (0) #  Maximum wind price Y_max  <double> 100
+ # (1) #  Mean Reversion in Y  <double> 0.04
+ # (2) #  Average Y  <double> 40
+ # (3) #  Variance in Y  <double> 0.075
+ # (4) #  Amplitude in sin Y  <double> 0.375
+ # (5) #  Period in sin Y  <double> 24
+ # (6) #  Phase in sin Y  <double> -14
+
+# End of File # 

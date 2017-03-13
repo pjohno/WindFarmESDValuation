@@ -1,0 +1,9 @@
+ # Parameter Configuration File #
+ # <ints> 5 <doubles> 0 <strings> 0
+ # (0) #  Points in X  <int> 201
+ # (1) #  Points in Y  <int> 51
+ # (2) #  Points in Q  <int> 51
+ # (3) #  Points in C  <int> 11
+ # (4) #  Show debugging messages <int> 1
+
+# End of File # 

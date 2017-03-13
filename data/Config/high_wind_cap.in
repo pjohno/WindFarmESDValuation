@@ -1,0 +1,11 @@
+ # Parameter Configuration File #
+ # <ints> 0 <doubles> 7 <strings> 0
+ # (0) #  Maximum wind speed X_max  <double> 100
+ # (1) #  Mean Reversion in X  <double> 0.1
+ # (2) #  Long-term average in X  <double> 8
+ # (3) #  Variance in X  <double> 0.2
+ # (4) #  Amplitude in sin X  <double> 0.375
+ # (5) #  Period in sin X  <double> 24
+ # (6) #  Phase in X  <double> -2
+
+# End of File # 

@@ -1,0 +1,10 @@
+ # Parameter Configuration File #
+ # <ints> 0 <doubles> 6 <strings> 0
+ # (0) #  Maximum size of store  <double> 1
+ # (1) #  Energy Efficiency of store  <double> 0.836666
+ # (2) #  Rate of charge  <double> 0.25
+ # (3) #  Rate of discharge  <double> 0.25
+ # (4) #  Smoothing on charge  <double> 0.2
+ # (5) #  Smoothing on discharge  <double> 0.2
+
+# End of File # 

@@ -1,0 +1,17 @@
+ # Parameter Configuration File #
+ # <ints> 5 <doubles> 8 <strings> 0
+ # (0) #  Precision  <int> 8
+ # (1) #  No of points in X  <int> 9
+ # (2) #  No of points in Y  <int> 25
+ # (3) #  No of points in Z  <int> 1
+ # (4) #  No of points in W  <int> 2
+ # (0) #  Minimum value of X  <double> 0.01
+ # (1) #  Maximum value of X  <double> 1
+ # (2) #  Minimum value of Y  <double> 0
+ # (3) #  Maximum value of Y  <double> 30
+ # (4) #  Minimum value of Z  <double> 50
+ # (5) #  Maximum value of Z  <double> 50
+ # (6) #  Minimum value of W  <double> 0
+ # (7) #  Maximum value of W  <double> 1
+
+# End of File # 

@@ -39,6 +39,7 @@ FIND_PACKAGE ( Threads REQUIRED )
 FIND_PACKAGE ( Boost REQUIRED )
 
 INCLUDE_DIRECTORIES( include ${COMMONMATHLIB_INCLUDES} )
+
 IF(UNIBUILD)
 add_definitions( -std=c++11 -Wall -Wextra -Wpedantic -ffast-math -O3 )
 ELSE()
