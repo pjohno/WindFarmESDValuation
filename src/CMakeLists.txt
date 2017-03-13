@@ -12,11 +12,11 @@ ADD_LIBRARY(DelayedWindFarmLIB SHARED
 ${MY_LIBRARY_SRCS} 
 )
 
-TARGET_LINK_LIBRARIES( DelayedWindFarmLIB boost_thread ${COMMONMATHLIB_LIBRARY})
+TARGET_LINK_LIBRARIES( DelayedWindFarmLIB boost_thread )
 
 ADD_LIBRARY(DelayedWindFarmLIB_static STATIC
 ${MY_LIBRARY_SRCS} 
 )
 
-TARGET_LINK_LIBRARIES( DelayedWindFarmLIB_static boost_thread ${COMMONMATHLIB_LIBRARY}_static)
+TARGET_LINK_LIBRARIES( DelayedWindFarmLIB_static boost_thread )
 

@@ -10,7 +10,7 @@
 
 #define DEBUG
 
-const std::string root_dir=std::string(std::getenv("HOME"))+"/Codes/Delayed_Wind_Farm_2016/data/";
+const std::string root_dir=std::string(DATA_LOCATION);
 const std::string config_dir=root_dir+"Config/";
 const std::string data_dir=root_dir+"Parameter_Sensitivity/";
 const std::string str_default_filenames="default_filenames.in";

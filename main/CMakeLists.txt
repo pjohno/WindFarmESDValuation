@@ -3,3 +3,6 @@ ADD_EXECUTABLE( DelayedWindFarm.out main.cpp )
 
 ADD_EXECUTABLE( Model03.out model03.cpp )
  TARGET_LINK_LIBRARIES( Model03.out DelayedWindFarmLIB )
+ 
+ADD_EXECUTABLE( test.out test.cpp )
+ TARGET_LINK_LIBRARIES( test.out DelayedWindFarmLIB )

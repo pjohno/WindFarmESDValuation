@@ -167,7 +167,7 @@ bool Param_vecs2::read_all_params(std::string filename)
   size_int = the_ints.size();size_real = the_reals.size();size_string = the_strings.size();
   i_int=0;i_real=0;i_string=0;error=0;
   
-  if (pfile == NULL) perror ("Error opening file");
+  if (pfile == NULL) std::cerr << "Error opening file " << filename << std::endl;
   else
   {
 	while(! std::feof (pfile))
